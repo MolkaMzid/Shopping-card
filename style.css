@@ -1,0 +1,100 @@
+.selector-for-some-widget {
+    box-sizing: content-box;
+}
+
+.navbar-brand {
+    color: rgb(35, 168, 64);
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    font-size: 13px;
+    font-weight: 400px;
+    line-height: 20px;
+}
+
+.navbarmenu {
+    background-color: rgb(182, 191, 202);
+}
+
+.dropdown {
+    margin-left: 700px;
+}
+
+
+/* .navbarDropdownMenuLink {
+    padding-left: 800px;
+    z-index: 1;
+} */
+
+.nav-link:hover {
+    color: rgb(241, 241, 245);
+}
+
+.nav-link {
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    font-size: 13px;
+    font-weight: 400px;
+    line-height: 20px;
+    color: rgb(73, 88, 104);
+}
+
+.section2 {
+    margin-top: 20px;
+    background-color: rgb(250, 253, 251);
+    width: 100%;
+}
+
+.card-section {
+    padding-right: 25px;
+    padding-left: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgb(219, 219, 219);
+}
+
+.nav-card {
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    font-size: 13px;
+    font-weight: 400px;
+    line-height: 20px;
+    color: rgb(254, 254, 251);
+    padding-left: 25px;
+    margin-top: 2px;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+.red-heart-checkbox {
+    visibility: hidden;
+}
+
+.red-heart-checkbox+label {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    font-size: 30px;
+    padding-left: 15px;
+    transition: all 0.2s;
+}
+
+.red-heart-checkbox:checked+label:before {
+    content: "";
+    color: #F00;
+}
+
+.red-heart-checkbox+label:before {
+    width: 31.5px;
+    height: 30px;
+    content: "";
+    margin-left: -48px;
+    margin-top: 3px;
+    font-family: FontAwesome;
+    font-size: 30px;
+    content: "";
+    transition: all 0.3s;
+    color: #888;
+}
+
+.control-group {
+    margin: 3px;
+}
